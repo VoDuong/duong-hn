@@ -7,13 +7,18 @@ gem 'rails', '4.2.5'
 
 group :development do
   gem 'sqlite3'
-  gem 'carrierwave'
 end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem 'gravtastic'
+gem 'omniauth-facebook'
 gem 'carrierwave'
+gem "cloudinary"
+gem 'devise'
+gem 'mini_magick', '3.8.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

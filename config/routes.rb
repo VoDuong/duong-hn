@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   resources :comments
   resources :ideas
   get 'pages/info'
@@ -6,6 +7,9 @@ Rails.application.routes.draw do
   root :to => redirect('/ideas')
   resources :homes
   resources :ideas
+  
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
