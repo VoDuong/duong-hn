@@ -7,9 +7,11 @@ gem 'rails', '4.2.5'
 
 group :development do
   gem 'sqlite3'
+  gem 'carrierwave'
 end
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 gem 'carrierwave'
 # Use SCSS for stylesheets
