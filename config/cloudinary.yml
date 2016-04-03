@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: duongvo
+  api_key: '299473953871263'
+  api_secret: Rx3P8Wr5JkIvZ1paqTPv3wHZPF4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: duongvo
+  api_key: '299473953871263'
+  api_secret: Rx3P8Wr5JkIvZ1paqTPv3wHZPF4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: duongvo
+  api_key: '299473953871263'
+  api_secret: Rx3P8Wr5JkIvZ1paqTPv3wHZPF4
+  enhance_image_tag: true
+  static_image_support: false
